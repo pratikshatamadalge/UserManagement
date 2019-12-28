@@ -31,14 +31,12 @@ public class DashboardServiceImpl implements IDashboardService {
 
 	@Autowired(required = true)
 	IRegisterRepository repository;
+
 	@Autowired
 	ModelMapper modelMapper;
-//	@Autowired
-//	IRegisterRepository regRepository;
+
 	@Autowired
 	BCryptPasswordEncoder bCryptPasswordEncoder;
-//	@Autowired
-//	IDashboardRepository dashRepository;
 
 	/**
 	 * purpose: method for statistics of registered users

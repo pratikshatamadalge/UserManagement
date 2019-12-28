@@ -7,6 +7,10 @@ import java.util.Map;
 import com.bridgelabz.usermanagement.model.User;
 import com.bridgelabz.usermanagement.response.Response;
 
+/**
+ * @author pratiksha
+ *
+ */
 public interface IDashboardService {
 
 	HashMap<String, Long> getUserStatistics();

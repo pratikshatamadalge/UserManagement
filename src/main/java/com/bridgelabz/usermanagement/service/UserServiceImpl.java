@@ -224,6 +224,9 @@ public class UserServiceImpl implements IUserService {
 		return new Response(HttpStatus.INTERNAL_SERVER_ERROR, null, Utility.LOGOUTFAILURE);
 	}
 
+	/**
+	 * @param user
+	 */
 	@SuppressWarnings("unchecked")
 	public void givepermissions(User user) {
 		if (user.getUserRole().contains("user")) {
@@ -401,5 +404,4 @@ public class UserServiceImpl implements IUserService {
 		}
 
 	}
-
 }

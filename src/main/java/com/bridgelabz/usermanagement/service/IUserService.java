@@ -9,6 +9,10 @@ import com.bridgelabz.usermanagement.dto.RegisterDTO;
 import com.bridgelabz.usermanagement.model.User;
 import com.bridgelabz.usermanagement.response.Response;
 
+/**
+ * @author pratiksha
+ *
+ */
 public interface IUserService {
 
 	Response validateCredentials(String email, String password);

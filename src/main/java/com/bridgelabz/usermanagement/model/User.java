@@ -12,6 +12,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Purpose:Model class for user information
+ * 
+ * @author pratiksha
+ *
+ */
 @Document(collection = "User")
 @AllArgsConstructor
 @Data

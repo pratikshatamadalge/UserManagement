@@ -73,7 +73,7 @@ public class UserController {
 	 * purpose: API to get login history of a registered user
 	 * 
 	 * @param email
-	 * @return
+	 * @return http status
 	 */
 	@GetMapping("/loginhistory")
 	public ResponseEntity<ArrayList<Date>> loginHistory(@RequestHeader String email) {
@@ -88,7 +88,7 @@ public class UserController {
 	 * purpose: API for logout functionality
 	 * 
 	 * @param email
-	 * @return
+	 * @return http status
 	 */
 	@GetMapping("/logout")
 	public ResponseEntity<Response> logout(@RequestHeader String email) {

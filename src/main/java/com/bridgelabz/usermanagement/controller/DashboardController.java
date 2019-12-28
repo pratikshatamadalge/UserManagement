@@ -16,6 +16,8 @@ import com.bridgelabz.usermanagement.response.Response;
 import com.bridgelabz.usermanagement.service.IDashboardService;
 
 /**
+ * Purpose: To implement dashboard controller
+ * 
  * @author Pratiksha
  *
  */
@@ -28,7 +30,7 @@ public class DashboardController {
 	/**
 	 * purpose:api for registration statistics
 	 * 
-	 * @return
+	 * @return response with user statistics
 	 */
 	@GetMapping("/userstatistics")
 	public ResponseEntity<HashMap<String, Long>> getStatistics() {
@@ -40,7 +42,7 @@ public class DashboardController {
 	/**
 	 * purpose:api to get latest registration statistic
 	 * 
-	 * @return
+	 * @return response with sorted user
 	 */
 	@GetMapping("/sortuser")
 	public ResponseEntity<List<User>> getLatestRegisteredUsers() {

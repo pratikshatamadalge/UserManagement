@@ -7,6 +7,11 @@ import org.apache.http.HttpStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+/**
+ * Purpose: Response model 
+ * @author Pratiksha
+ *
+ */
 @Data
 @AllArgsConstructor
 public class Response implements Serializable{
